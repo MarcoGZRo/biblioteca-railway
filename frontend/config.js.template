@@ -1,0 +1,5 @@
+// Se genera al iniciar el contenedor desde API_BASE_URL de Railway.
+// Es publica: nunca pongas contrasenas ni secretos aqui.
+window.APP_CONFIG = {
+  API_BASE_URL: '${API_BASE_URL}'
+};
